@@ -4,9 +4,9 @@ This project presents the development of a differential drive robot using ROS2, 
 
 The system combines hardware and software components to enable movement control, environment sensing, and basic mapping capabilities.
 
----
 
-## 🔧 System Architecture
+
+## System Architecture
 
 The robot is built around three main layers:
 
@@ -25,9 +25,9 @@ The robot is built around three main layers:
 - Integrated with ROS2 for real-time data acquisition
 - Used for mapping via SLAM algorithms
 
----
 
-## ⚙️ Hardware Components
+
+## Hardware Components
 
 - Microcontroller: Arduino Uno  
 - Processing Unit: PC / Raspberry Pi (ROS2 environment)  
@@ -36,9 +36,9 @@ The robot is built around three main layers:
 - Sensor: RPLIDAR  
 - Additional: Relay module and status LED  
 
----
 
-## 🔌 Communication Mechanism
+
+## Communication Mechanism
 
 - Serial communication between ROS2 and Arduino (115200 baud)
 - Custom command protocol:
@@ -47,9 +47,9 @@ The robot is built around three main layers:
 
 The Arduino interprets commands and adjusts motor speed and direction accordingly.
 
----
 
-## 🧠 Software Implementation
+
+## Software Implementation
 
 ### ROS2 Nodes
 
@@ -66,9 +66,9 @@ The Arduino interprets commands and adjusts motor speed and direction accordingl
   - Keyboard-based control (WASD interface)
   - Enables manual navigation
 
----
 
-## 🗺️ Mapping and Localization
+
+## Mapping and Localization
 
 - Integrated with `slam_toolbox`
 - Uses LiDAR data to generate a 2D map
@@ -76,7 +76,7 @@ The Arduino interprets commands and adjusts motor speed and direction accordingl
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Differential drive control  
 - Real-time teleoperation  
@@ -84,9 +84,9 @@ The Arduino interprets commands and adjusts motor speed and direction accordingl
 - LiDAR-based environment perception  
 - Basic SLAM mapping  
 
----
 
-## 🧪 Learning Outcomes
+
+## Learning Outcomes
 
 This project provided hands-on experience in:
 
@@ -96,9 +96,9 @@ This project provided hands-on experience in:
 - Robot control systems (kinematics & motion control)  
 - Multi-layer system design  
 
----
 
-## 👥 Team Contribution
+
+## Team Contribution
 
 This project was developed as part of a team during TSYP 13.0 (RAS Challenge).
 
@@ -108,9 +108,9 @@ My contributions included:
 - Technical documentation and system structuring  
 - Collaboration on hardware-software interfacing  
 
----
 
-## 📌 Future Improvements
+
+## Future Improvements
 
 - Implement real odometry using encoders  
 - Add autonomous navigation (path planning)  
